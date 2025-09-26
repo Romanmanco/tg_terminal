@@ -20,7 +20,7 @@ PORT = int(os.environ.get("PORT", 5001))
 ROBOT_URLS = {
     "BTCUSDT": os.environ.get("ROBOT_URL_BTCUSDT", "http://127.0.0.1:5002"),
     "ETHUSDT": os.environ.get("ROBOT_URL_ETHUSDT", "http://127.0.0.1:5003"),
-    "BNBUSDT": os.environ.get("ROBOT_URL_BNBUSDT", "http://127.0.0.1:5004"),
+    "SOLUSDT": os.environ.get("ROBOT_URL_SOLUSDT", "http://127.0.0.1:5004"),
     "XRPUSDT": os.environ.get("ROBOT_URL_XRPUSDT", "http://127.0.0.1:5005"),
 }
 

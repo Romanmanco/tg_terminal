@@ -20,7 +20,7 @@ RUN apt-get update && apt-get install -y \
 
 # Устанавливаем рабочую директорию
 WORKDIR /bot
-ENV PYTHONPATH "${PYTHONPATH}:/bot/"
+ENV PYTHONPATH="/bot:${PYTHONPATH}"
 
 # Копируем файл зависимостей в рабочую директорию
 COPY requirements.txt .
