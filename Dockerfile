@@ -3,7 +3,7 @@ FROM python:3.13-slim
 # Определяем переменные окружения
 ENV HOST=0.0.0.0 \
     PORT=5001 \
-    TELEGRAM_TOKEN="7654837384:AAGcOdX5jzGv1ZTNqPT8vlY0rwLsL-w5STA" \
+    TELEGRAM_TOKEN="" \
     ROBOT_URL_BTCUSDT_BYBIT="" \
     ROBOT_URL_LTCUSDT_BYBIT="" \
     ROBOT_URL_BTCUSDT_BINANCE2="" \
