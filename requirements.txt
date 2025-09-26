@@ -1,4 +1,4 @@
-requests~=2.31.0
+requests~=2.32.4
 telebot~=0.0.5
 uvicorn~=0.32.0
 fastapi~=0.115.2

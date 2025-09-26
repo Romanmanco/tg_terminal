@@ -1,10 +1,9 @@
-# Используем официальный минимальный образ Python
-FROM python:3.10-slim
+FROM python:3.13-slim
 
 # Определяем переменные окружения
 ENV HOST=0.0.0.0 \
     PORT=5001 \
-    TELEGRAM_TOKEN="" \
+    TELEGRAM_TOKEN="7654837384:AAGcOdX5jzGv1ZTNqPT8vlY0rwLsL-w5STA" \
     ROBOT_URL_BTCUSDT_BYBIT="" \
     ROBOT_URL_LTCUSDT_BYBIT="" \
     ROBOT_URL_BTCUSDT_BINANCE2="" \
@@ -15,8 +14,8 @@ ENV HOST=0.0.0.0 \
 # Устанавливаем необходимые системные зависимости
 RUN apt-get update && apt-get install -y \
     build-essential \
-    libatlas-base-dev \
     gfortran \
+    libatlas3-base \
     && rm -rf /var/lib/apt/lists/*
 
 # Устанавливаем рабочую директорию
