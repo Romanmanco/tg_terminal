@@ -22,6 +22,7 @@ ROBOT_URLS = {
     "ETHUSDT": os.environ.get("ROBOT_URL_ETHUSDT", "http://127.0.0.1:5003"),
     "SOLUSDT": os.environ.get("ROBOT_URL_SOLUSDT", "http://127.0.0.1:5004"),
     "XRPUSDT": os.environ.get("ROBOT_URL_XRPUSDT", "http://127.0.0.1:5005"),
+    "MNTUSDT": os.environ.get("ROBOT_URL_MNTUSDT", "http://127.0.0.1:5006"),
 }
 
 # -----------------------

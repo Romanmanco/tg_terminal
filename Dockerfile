@@ -3,13 +3,7 @@ FROM python:3.13-slim
 # Определяем переменные окружения
 ENV HOST=0.0.0.0 \
     PORT=5001 \
-    TELEGRAM_TOKEN="" \
-    ROBOT_URL_BTCUSDT_BYBIT="" \
-    ROBOT_URL_LTCUSDT_BYBIT="" \
-    ROBOT_URL_BTCUSDT_BINANCE2="" \
-    ROBOT_URL_STORJUSDT_BINANCE2="" \
-    ROBOT_URL_BNBUSDT_BINANCE2="" \
-    ROBOT_URL_LTCUSDT_BINANCE2=""
+    TELEGRAM_TOKEN="7654837384:AAG484DRWxiRE6M5"
 
 # Устанавливаем необходимые системные зависимости
 RUN apt-get update && apt-get install -y \
